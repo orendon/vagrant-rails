@@ -1,4 +1,5 @@
 #!/bin/sh
+# Original script on https://github.com/orendon/vagrant-rails
 
 # enable console colors
 sed -i '1iforce_color_prompt=yes' ~/.bashrc
