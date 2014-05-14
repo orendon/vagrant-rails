@@ -22,5 +22,9 @@ a while)
 
 Grab some coffee and then run `vagrant ssh` to access your rails box
 
-#Requirements
+##Requirements
 It requires vagrant and virtualbox to be previously installed
+
+###TODO
+Add chef/puppet equivalents
+
