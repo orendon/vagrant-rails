@@ -14,4 +14,13 @@ This box start with a basic Ubuntu 14.04 (trusty) based on phusion/ubuntu-14.04-
 - ImageMagick
 - Redis and Memcached
 
-Tested using Vagrant 1.6.2 and Virtualbox 4.3.10
+>Tested using Vagrant 1.6.2 and Virtualbox 4.3.10
+
+#Usage
+Just clone or add this files to your project and run `vagrant up` (it will take
+a while)
+
+Grab some coffee and then run `vagrant ssh` to access your rails box
+
+#Requirements
+It requires vagrant and virtualbox to be previously installed
