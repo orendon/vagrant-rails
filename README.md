@@ -14,17 +14,22 @@ This box start with a basic Ubuntu 14.04 (trusty) based on phusion/ubuntu-14.04-
 - ImageMagick
 - Redis and Memcached
 
->Tested using Vagrant 1.6.2 and Virtualbox 4.3.10
+##Usage
+Just download `Vagrantfile` on the root folder on your app, and run vagrant from there
+```shell
+wget https://github.com/orendon/vagrant-rails/raw/master/Vagrantfile
+vagrant up
+vagrant ssh
+```
 
-#Usage
-Just clone or add this files to your project and run `vagrant up` (it will take
-a while)
+If needed, you can customize `config.vm.provision` script according to your app specifics, in such case just run `vagrant provision` in order to reload all scripts.
 
-Grab some coffee and then run `vagrant ssh` to access your rails box
+You can run `vagrant -h` to see some handy vagrant commands
 
-##Requirements
+###Requirements
 It requires vagrant and virtualbox to be previously installed
+
+>Tested using Vagrant 1.6.2 and Virtualbox 4.3.10
 
 ###TODO
 Add chef/puppet equivalents
-
