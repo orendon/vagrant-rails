@@ -18,7 +18,7 @@ sudo apt-get install -y libsqlite3-dev git nodejs
 sudo apt-get install -y libqtwebkit-dev
 
 # ImageMagick
-sudo apt-get install -y imagemagick
+sudo apt-get install -y imagemagick libmagickwand-dev
 
 # Postgres
 sudo apt-get install -y postgresql-9.3 postgresql-server-dev-9.3 postgresql-contrib-9.3
