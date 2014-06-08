@@ -8,7 +8,7 @@ sed -i '1iforce_color_prompt=yes' ~/.bashrc
 echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc
 
 # essentials
-sudo apt-get update
+sudo apt-get -y update
 sudo apt-get install -y autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libcurl4-openssl-dev curl wget
 
 # SQLite, Git and Node.js
@@ -17,7 +17,7 @@ sudo apt-get install -y libsqlite3-dev git nodejs
 # Qt for Capybara Webkit
 sudo apt-get install -y libqtwebkit-dev
 
-# ImageMagick
+# ImageMagick and Rmagick
 sudo apt-get install -y imagemagick libmagickwand-dev
 
 # Postgres
