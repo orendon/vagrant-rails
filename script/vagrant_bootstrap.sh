@@ -14,8 +14,8 @@ sudo apt-get install -y autoconf bison build-essential libssl-dev libyaml-dev li
 # SQLite, Git and Node.js
 sudo apt-get install -y libsqlite3-dev git nodejs
 
-# Qt for Capybara Webkit
-sudo apt-get install -y libqtwebkit-dev
+# Qt and xvfb-run for Capybara Webkit
+sudo apt-get install -y libqtwebkit-dev xvfb
 
 # ImageMagick and Rmagick
 sudo apt-get install -y imagemagick libmagickwand-dev
