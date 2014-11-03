@@ -5,7 +5,7 @@ A Ubuntu 14.04 install aimed for Ruby on Rails development
 This box start with a basic Ubuntu 14.04 (trusty) based on phusion/ubuntu-14.04-amd64 and it adds the following packages aimed for rails development
 
 - rbenv and ruby-build
-- ruby 2.1.2 with bundler
+- ruby 2.1.4 with bundler
 - Git 1.9.1
 - Postgresql 9.3 and SQLite
 - Node.js
